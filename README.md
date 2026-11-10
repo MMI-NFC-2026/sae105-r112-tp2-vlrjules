@@ -201,8 +201,12 @@ Ajouter à votre code des commentaires reprenant les explications données dans 
 Recherchez sur le site https://developer.mozilla.org/fr/ les pages de documentation de ce qui a été utilisé dans ce TP :
 
 - `popover` : https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Global_attributes/popover
-- ...
-
+- `transform` : https://developer.mozilla.org/fr/docs/Web/SVG/Reference/Attribute/transform 
+- `@starting-style` : https://developer.mozilla.org/fr/docs/Web/CSS/Reference/At-rules/@starting-style
+- `overflow` : https://developer.mozilla.org/fr/docs/Web/CSS/Reference/Properties/overflow
+- `@media` : https://developer.mozilla.org/fr/docs/Web/CSS/Reference/At-rules/@media
+- `autofocus` : https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Global_attributes/autofocus
+- `popoverTargetAction` : https://developer.mozilla.org/fr/docs/Web/API/HTMLButtonElement/popoverTargetAction
 # Fin
 
 N'oubliez pas de Push et publier sur Netlify (URL (publique) du site à mettre en haut).
