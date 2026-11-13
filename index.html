@@ -14,18 +14,31 @@
     <!-- Menu principal -->
     <button class="burger" type="button" popovertarget="menu" aria-label="Menu"><!-- La commande popovertarget definie l'élément comme cible pour passer en popover -->
 
-      🍔
+        <img src="public/icones/hamburger.svg" alt="Menu">
     </button>
 
     <nav class="menu" id="menu" popover aria-label="Main menu">
       <button class="menu__close burger burger--close" type="button" popovertarget="menu" popovertargetaction="hide" aria-label="Close the menu" autofocus><!-- La commande permet de crée un bouton de fermeture du menu -->
-        🍔
+        <img src="/public/icones/close.svg" alt="Close">
       </button>
       <ul class="menu__list">
-        <li class="menu__item"><a class="menu__link" href="#">Item de menu un</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Item de menu deux</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Item de menu trois</a></li>
-        <li class="menu__item"><a class="menu__link" href="#">Item de menu quatre</a></li>
+        <li class="menu__item"><a href="/index.html">Accueil</a></li>
+        <li class="menu__item">
+        <details>
+          <summary>Liste de chats</summary>
+        <a href="/cats/chat-1.html">Chat 1</a>
+        <a href="/cats/chat-2.html">Chat 2</a>
+        </details>
+      </li>
+       <li class="menu__item">
+        <details>
+          <summary>Liste de chiens</summary>
+        <a href="/dogs/chien-1.html">Chien 1</a>
+        <a href="/dogs/chien-2.html">Chien 2</a>
+        </details>
+      </li>
+      <li class="menu__item"><a class="menu__link" href="#">Item de menu trois</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Item de menu quatre</a></li>
       </ul>
     </nav>
     <!-- Fin du menu principal -->
@@ -37,7 +50,14 @@
     <p>
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam fugit maiores accusamus quisquam ad veritatis
       officiis numquam ex rem porro, amet sapiente eaque. Rerum excepturi eaque atque ipsa quos mollitia.
+    
     </p>
+    <h2>Liste de chats</h2>
+   <a class="chat" href="cats/chat-1.html">Chat 1</a>
+    <a class="chat" href="cats/chat-2.html">Chat 2</a>
+    <h2>Liste de chiens</h2>
+    <a class="chien" href="dogs/chien-1.html">Chien 1</a>
+    <a class="chien" href="dogs/chien-2.html">Chien 2</a>
   </main>
   <!-- Fin du contenu principal -->
 
